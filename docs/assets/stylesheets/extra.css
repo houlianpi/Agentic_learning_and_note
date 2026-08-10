@@ -1,0 +1,41 @@
+:root {
+  --md-primary-fg-color: #155e63;
+  --md-accent-fg-color: #b45309;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #2f6f73;
+  --md-accent-fg-color: #f59e0b;
+}
+
+.md-typeset h1 {
+  font-weight: 750;
+}
+
+.md-typeset table:not([class]) {
+  font-size: 0.78rem;
+}
+
+.reading-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.reading-card {
+  display: block;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--md-typeset-color);
+  background: var(--md-default-bg-color);
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.06);
+}
+
+.reading-card:hover {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+}
+

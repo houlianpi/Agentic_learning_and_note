@@ -1,0 +1,85 @@
+site_name: Agentic Learning and Note
+site_description: 用 GitHub 像读书一样阅读、整理和复盘读书笔记
+site_url: https://houlianpi.github.io/Agentic_learning_and_note/
+repo_url: https://github.com/houlianpi/Agentic_learning_and_note
+repo_name: houlianpi/Agentic_learning_and_note
+
+theme:
+  name: material
+  language: zh
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.svg
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - 首页: index.md
+  - 阅读地图: reading-map.md
+  - 书架:
+      - books/index.md
+      - 笔记模板: books/_template.md
+      - Agentic AI 学习:
+          - books/agentic-ai/index.md
+          - books/agentic-ai/chapter-01.md
+  - 方法:
+      - methods/note-system.md
+      - methods/review-rhythm.md
