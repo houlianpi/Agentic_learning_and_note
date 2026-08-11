@@ -31,6 +31,7 @@
 ## 章节
 
 - [第 1 章：提示链（Prompt Chain）](chapter-01-prompt-chaining.md)
+- [第 2 章：路由（Routing）](chapter-02-routing.md)
 
 ## 可执行行动
 

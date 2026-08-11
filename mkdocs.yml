@@ -79,3 +79,4 @@ nav:
       - Agentic 智能体设计模式:
           - books/agentic-design-patterns/index.md
           - books/agentic-design-patterns/chapter-01-prompt-chaining.md
+          - books/agentic-design-patterns/chapter-02-routing.md
