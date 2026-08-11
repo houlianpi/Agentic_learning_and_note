@@ -6,7 +6,7 @@
 
 ```mermaid
 flowchart LR
-  A[Agentic AI] --> B[产品设计]
+  A[Agentic 智能体设计模式] --> B[产品设计]
   A --> C[工程实现]
   A --> D[组织协作]
   C --> E[提示词与工具调用]
@@ -17,6 +17,5 @@ flowchart LR
 
 | 线索 | 关注问题 | 相关笔记 |
 | --- | --- | --- |
-| Agent 工作流 | 如何把开放任务拆成可验证步骤 | [Agentic AI 学习](books/agentic-ai/index.md) |
+| Agent 工作流 | 如何把开放任务拆成可验证步骤 | [Agentic 智能体设计模式](books/agentic-design-patterns/index.md) |
 | 读书方法 | 如何从摘抄转向复盘和行动 | [笔记系统](methods/note-system.md) |
-

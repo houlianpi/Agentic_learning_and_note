@@ -77,9 +77,6 @@ nav:
   - 书架:
       - books/index.md
       - 笔记模板: books/_template.md
-      - Agentic AI 学习:
-          - books/agentic-ai/index.md
-          - books/agentic-ai/chapter-01.md
       - Agentic 智能体设计模式:
           - books/agentic-design-patterns/index.md
           - books/agentic-design-patterns/chapter-01-prompt-chaining.md

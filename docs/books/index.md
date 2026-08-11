@@ -6,7 +6,6 @@
 
 | 笔记 | 状态 | 一句话摘要 |
 | --- | --- | --- |
-| [Agentic AI 学习](agentic-ai/index.md) | 在读 | 从概念、工程和产品三个角度整理 Agentic AI |
 | [Agentic 智能体设计模式](agentic-design-patterns/index.md) | 在读 | 围绕 Prompt Chain、Agent Loop 和 Workflow 整理智能体设计模式 |
 
 ## 以后可以加入的分类
