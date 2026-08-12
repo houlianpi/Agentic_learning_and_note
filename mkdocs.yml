@@ -80,3 +80,4 @@ nav:
           - books/agentic-design-patterns/index.md
           - books/agentic-design-patterns/chapter-01-prompt-chaining.md
           - books/agentic-design-patterns/chapter-02-routing.md
+          - books/agentic-design-patterns/chapter-03-parallelization.md
