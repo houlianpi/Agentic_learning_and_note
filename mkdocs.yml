@@ -1,5 +1,5 @@
-site_name: Agentic Learning and Note
-site_description: 用 GitHub 像读书一样阅读、整理和复盘读书笔记
+site_name: Agentic Notes
+site_description: 记录智能体系统、设计模式和工程实践的学习笔记
 site_url: https://houlianpi.github.io/Agentic_learning_and_note/
 repo_url: https://github.com/houlianpi/Agentic_learning_and_note
 repo_name: houlianpi/Agentic_learning_and_note
@@ -74,7 +74,7 @@ markdown_extensions:
 nav:
   - 首页: index.md
   - 阅读地图: reading-map.md
-  - 书架:
+  - 文章:
       - books/index.md
       - Agentic 智能体设计模式:
           - books/agentic-design-patterns/index.md
